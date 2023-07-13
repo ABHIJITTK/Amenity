@@ -1,0 +1,44 @@
+
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../ASSETS/amenity2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .authform {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 14px;
+  }
+  
+  .authform h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input_area {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input_area input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+.authform button{
+    background-color: rgb(0, 166, 255);
+}
+.authform button:hover{
+    background-color: rgb(0, 166, 255); 
+}
+
+  
